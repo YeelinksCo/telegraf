@@ -7,7 +7,7 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/influxdata/telegraf/plugins/common/tls"
+	"github.com/YeelinksCo/telegraf/plugins/common/tls"
 )
 
 type PKIPaths struct {

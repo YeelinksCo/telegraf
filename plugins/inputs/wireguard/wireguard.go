@@ -9,8 +9,8 @@ import (
 	"golang.zx2c4.com/wireguard/wgctrl"
 	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/plugins/inputs"
 )
 
 //go:embed sample.conf

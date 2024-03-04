@@ -6,11 +6,11 @@ import (
 	_ "embed"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/common/opcua"
-	"github.com/influxdata/telegraf/plugins/common/opcua/input"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/plugins/common/opcua"
+	"github.com/YeelinksCo/telegraf/plugins/common/opcua/input"
+	"github.com/YeelinksCo/telegraf/plugins/inputs"
 )
 
 type OpcUaListener struct {

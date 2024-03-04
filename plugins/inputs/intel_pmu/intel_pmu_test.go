@@ -13,7 +13,7 @@ import (
 	ia "github.com/intel/iaevents"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func TestInitialization(t *testing.T) {

@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/outputs/postgresql/sqltemplate"
-	"github.com/influxdata/telegraf/plugins/outputs/postgresql/utils"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/plugins/outputs/postgresql/sqltemplate"
+	"github.com/YeelinksCo/telegraf/plugins/outputs/postgresql/utils"
 )
 
 func TestTableManagerIntegration_EnsureStructure(t *testing.T) {

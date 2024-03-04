@@ -3,7 +3,7 @@
 package dmcache
 
 import (
-	"github.com/influxdata/telegraf"
+	"github.com/YeelinksCo/telegraf"
 )
 
 func (*DMCache) Gather(_ telegraf.Accumulator) error {

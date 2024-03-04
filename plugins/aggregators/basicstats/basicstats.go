@@ -6,8 +6,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/aggregators"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/plugins/aggregators"
 )
 
 //go:embed sample.conf

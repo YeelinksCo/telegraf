@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/YeelinksCo/telegraf"
 )
 
 func (e *Execd) Gather(_ telegraf.Accumulator) error {

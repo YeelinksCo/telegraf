@@ -16,9 +16,9 @@ import (
 	"github.com/Azure/azure-kusto-go/kusto/ingest"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	telegrafJson "github.com/influxdata/telegraf/plugins/serializers/json"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf"
+	telegrafJson "github.com/YeelinksCo/telegraf/plugins/serializers/json"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func TestWrite(t *testing.T) {

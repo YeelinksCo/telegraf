@@ -17,9 +17,9 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/metric"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func TestHandleTelemetryTwoSimple(t *testing.T) {

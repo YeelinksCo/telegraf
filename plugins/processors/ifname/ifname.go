@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal/snmp"
-	"github.com/influxdata/telegraf/plugins/common/parallel"
-	si "github.com/influxdata/telegraf/plugins/inputs/snmp"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/internal/snmp"
+	"github.com/YeelinksCo/telegraf/plugins/common/parallel"
+	si "github.com/YeelinksCo/telegraf/plugins/inputs/snmp"
+	"github.com/YeelinksCo/telegraf/plugins/processors"
 )
 
 //go:embed sample.conf

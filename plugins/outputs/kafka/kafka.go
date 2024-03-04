@@ -11,11 +11,11 @@ import (
 	"github.com/IBM/sarama"
 	"github.com/gofrs/uuid/v5"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/common/kafka"
-	"github.com/influxdata/telegraf/plugins/common/proxy"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/plugins/common/kafka"
+	"github.com/YeelinksCo/telegraf/plugins/common/proxy"
+	"github.com/YeelinksCo/telegraf/plugins/outputs"
+	"github.com/YeelinksCo/telegraf/plugins/serializers"
 )
 
 //go:embed sample.conf

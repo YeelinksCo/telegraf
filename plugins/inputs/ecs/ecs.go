@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/filter"
+	"github.com/YeelinksCo/telegraf/plugins/inputs"
 )
 
 //go:embed sample.conf

@@ -15,12 +15,12 @@ import (
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/models"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/outputs/postgresql/sqltemplate"
-	"github.com/influxdata/telegraf/plugins/outputs/postgresql/utils"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/models"
+	"github.com/YeelinksCo/telegraf/plugins/outputs"
+	"github.com/YeelinksCo/telegraf/plugins/outputs/postgresql/sqltemplate"
+	"github.com/YeelinksCo/telegraf/plugins/outputs/postgresql/utils"
 )
 
 type dbh interface {

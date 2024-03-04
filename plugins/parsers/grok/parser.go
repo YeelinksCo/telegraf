@@ -13,10 +13,10 @@ import (
 
 	"github.com/vjeantet/grok"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/parsers"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/internal"
+	"github.com/YeelinksCo/telegraf/metric"
+	"github.com/YeelinksCo/telegraf/plugins/parsers"
 )
 
 var timeLayouts = map[string]string{

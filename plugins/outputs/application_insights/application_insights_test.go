@@ -9,11 +9,11 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/outputs/application_insights/mocks"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/metric"
+	"github.com/YeelinksCo/telegraf/plugins/outputs/application_insights/mocks"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func TestConnectFailsIfNoIkey(t *testing.T) {

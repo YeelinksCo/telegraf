@@ -7,9 +7,9 @@ import (
 	gobin "encoding/binary"
 	"fmt"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/internal"
+	"github.com/YeelinksCo/telegraf/plugins/processors"
 )
 
 //go:embed sample.conf

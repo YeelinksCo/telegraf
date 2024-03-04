@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/metric"
 )
 
 func BenchmarkMetrics(b *testing.B) [4]telegraf.Metric {

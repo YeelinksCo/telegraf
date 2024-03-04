@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/YeelinksCo/telegraf/plugins/inputs/zipkin/trace"
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/telegraf/plugins/inputs/zipkin/trace"
 )
 
 type MockRecorder struct {

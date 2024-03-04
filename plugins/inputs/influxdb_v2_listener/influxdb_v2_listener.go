@@ -15,14 +15,14 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal"
-	tlsint "github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
-	"github.com/influxdata/telegraf/plugins/parsers/influx/influx_upstream"
-	"github.com/influxdata/telegraf/selfstat"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/internal"
+	tlsint "github.com/YeelinksCo/telegraf/plugins/common/tls"
+	"github.com/YeelinksCo/telegraf/plugins/inputs"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/influx"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/influx/influx_upstream"
+	"github.com/YeelinksCo/telegraf/selfstat"
 )
 
 //go:embed sample.conf

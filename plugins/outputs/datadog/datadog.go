@@ -14,11 +14,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/common/proxy"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/internal"
+	"github.com/YeelinksCo/telegraf/plugins/common/proxy"
+	"github.com/YeelinksCo/telegraf/plugins/outputs"
 )
 
 //go:embed sample.conf

@@ -16,15 +16,15 @@ import (
 	cwClient "github.com/aws/aws-sdk-go-v2/service/cloudwatch"
 	"github.com/aws/aws-sdk-go-v2/service/cloudwatch/types"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/internal/limiter"
-	internalMetric "github.com/influxdata/telegraf/metric"
-	internalaws "github.com/influxdata/telegraf/plugins/common/aws"
-	internalProxy "github.com/influxdata/telegraf/plugins/common/proxy"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/filter"
+	"github.com/YeelinksCo/telegraf/internal"
+	"github.com/YeelinksCo/telegraf/internal/limiter"
+	internalMetric "github.com/YeelinksCo/telegraf/metric"
+	internalaws "github.com/YeelinksCo/telegraf/plugins/common/aws"
+	internalProxy "github.com/YeelinksCo/telegraf/plugins/common/proxy"
+	"github.com/YeelinksCo/telegraf/plugins/inputs"
 )
 
 //go:embed sample.conf

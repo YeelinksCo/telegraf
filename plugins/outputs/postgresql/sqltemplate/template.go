@@ -123,7 +123,7 @@ import (
 
 	"github.com/Masterminds/sprig"
 
-	"github.com/influxdata/telegraf/plugins/outputs/postgresql/utils"
+	"github.com/YeelinksCo/telegraf/plugins/outputs/postgresql/utils"
 )
 
 var templateFuncs = map[string]interface{}{

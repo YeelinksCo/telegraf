@@ -9,7 +9,7 @@ import (
 
 	ia "github.com/intel/iaevents"
 
-	"github.com/influxdata/telegraf"
+	"github.com/YeelinksCo/telegraf"
 )
 
 type entitiesResolver interface {

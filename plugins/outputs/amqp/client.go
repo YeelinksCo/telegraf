@@ -11,8 +11,8 @@ import (
 
 	amqp "github.com/rabbitmq/amqp091-go"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/common/proxy"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/plugins/common/proxy"
 )
 
 type ClientConfig struct {

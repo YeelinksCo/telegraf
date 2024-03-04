@@ -24,11 +24,11 @@ import (
 	"github.com/pion/dtls/v2"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/metric"
-	_tls "github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/metric"
+	_tls "github.com/YeelinksCo/telegraf/plugins/common/tls"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 var pki = testutil.NewPKI("../../../testutil/pki")

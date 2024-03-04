@@ -2,4 +2,4 @@
 
 package all
 
-import _ "github.com/influxdata/telegraf/migrations/inputs_procstat" // register migration
+import _ "github.com/YeelinksCo/telegraf/migrations/inputs_procstat" // register migration

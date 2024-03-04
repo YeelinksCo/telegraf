@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/influxdata/telegraf/internal"
+	"github.com/YeelinksCo/telegraf/internal"
 )
 
 type tagStore struct {

@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/metric"
 )
 
 func createTestMetric() telegraf.Metric {

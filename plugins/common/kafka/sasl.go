@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/IBM/sarama"
-	"github.com/influxdata/telegraf/config"
+	"github.com/YeelinksCo/telegraf/config"
 )
 
 type SASLAuth struct {

@@ -20,11 +20,11 @@ import (
 	"github.com/opensearch-project/opensearch-go/v2/opensearchapi"
 	"github.com/opensearch-project/opensearch-go/v2/opensearchutil"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal/choice"
-	"github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/internal/choice"
+	"github.com/YeelinksCo/telegraf/plugins/common/tls"
+	"github.com/YeelinksCo/telegraf/plugins/outputs"
 )
 
 //go:embed sample.conf

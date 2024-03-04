@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/metric"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func newMetric(name string, tags map[string]string, fields map[string]interface{}) telegraf.Metric {

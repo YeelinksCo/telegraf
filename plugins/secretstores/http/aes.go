@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/YeelinksCo/telegraf/config"
 	"github.com/awnumar/memguard"
-	"github.com/influxdata/telegraf/config"
 )
 
 type AesEncryptor struct {

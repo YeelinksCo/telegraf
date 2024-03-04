@@ -4,8 +4,8 @@ package pivot
 import (
 	_ "embed"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/plugins/processors"
 )
 
 //go:embed sample.conf

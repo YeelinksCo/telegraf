@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/plugins/parsers/graphite"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
-	"github.com/influxdata/telegraf/plugins/parsers/json"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/graphite"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/influx"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/json"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 const (

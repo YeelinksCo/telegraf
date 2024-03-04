@@ -3,8 +3,8 @@ package filter
 import (
 	"fmt"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/filter"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/filter"
 )
 
 type rule struct {

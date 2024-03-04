@@ -19,8 +19,8 @@ import (
 	"github.com/vmware/govmomi/vim25/mo"
 	"github.com/vmware/govmomi/vim25/types"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/filter"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/filter"
 )
 
 var isolateLUN = regexp.MustCompile(`.*/([^/]+)/?$`)

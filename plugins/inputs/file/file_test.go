@@ -14,12 +14,12 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/parsers/csv"
-	"github.com/influxdata/telegraf/plugins/parsers/grok"
-	"github.com/influxdata/telegraf/plugins/parsers/json"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/metric"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/csv"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/grok"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/json"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func TestRefreshFilePaths(t *testing.T) {

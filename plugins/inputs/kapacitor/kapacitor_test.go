@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/plugins/inputs/kapacitor"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf/plugins/inputs/kapacitor"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func TestKapacitor(t *testing.T) {

@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/config"
-	_ "github.com/influxdata/telegraf/migrations/inputs_disk" // register migration
-	_ "github.com/influxdata/telegraf/plugins/inputs/disk"    // register plugin
+	"github.com/YeelinksCo/telegraf/config"
+	_ "github.com/YeelinksCo/telegraf/migrations/inputs_disk" // register migration
+	_ "github.com/YeelinksCo/telegraf/plugins/inputs/disk"    // register plugin
 )
 
 func TestNoMigration(t *testing.T) {

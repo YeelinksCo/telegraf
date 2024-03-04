@@ -13,8 +13,8 @@ import (
 	"layeh.com/radius"
 	"layeh.com/radius/rfc2865"
 
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func TestRadiusLocal(t *testing.T) {

@@ -20,12 +20,12 @@ import (
 	"github.com/docker/docker/api/types/filters"
 	"github.com/docker/docker/pkg/stdcopy"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/internal/docker"
-	tlsint "github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/filter"
+	"github.com/YeelinksCo/telegraf/internal/docker"
+	tlsint "github.com/YeelinksCo/telegraf/plugins/common/tls"
+	"github.com/YeelinksCo/telegraf/plugins/inputs"
 )
 
 //go:embed sample.conf

@@ -8,10 +8,10 @@ import (
 
 	"github.com/BurntSushi/toml"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/plugins/inputs"
+	"github.com/YeelinksCo/telegraf/plugins/outputs"
+	"github.com/YeelinksCo/telegraf/plugins/processors"
 )
 
 type config struct {

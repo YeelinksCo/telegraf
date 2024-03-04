@@ -19,13 +19,13 @@ import (
 	"golang.org/x/oauth2"
 	"google.golang.org/api/idtoken"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal"
-	internalaws "github.com/influxdata/telegraf/plugins/common/aws"
-	httpconfig "github.com/influxdata/telegraf/plugins/common/http"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/internal"
+	internalaws "github.com/YeelinksCo/telegraf/plugins/common/aws"
+	httpconfig "github.com/YeelinksCo/telegraf/plugins/common/http"
+	"github.com/YeelinksCo/telegraf/plugins/outputs"
+	"github.com/YeelinksCo/telegraf/plugins/serializers"
 )
 
 //go:embed sample.conf

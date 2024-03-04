@@ -6,8 +6,8 @@ import (
 	"github.com/shirou/gopsutil/v3/disk"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/plugins/inputs/system"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf/plugins/inputs/system"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func TestDiskIO(t *testing.T) {

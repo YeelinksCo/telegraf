@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/plugins/inputs/influxdb"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf/plugins/inputs/influxdb"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func TestBasic(t *testing.T) {

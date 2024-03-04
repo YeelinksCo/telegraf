@@ -5,7 +5,7 @@ package systemd
 import (
 	"testing"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

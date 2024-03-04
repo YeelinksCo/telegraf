@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/testutil"
 	mb "github.com/grid-x/modbus"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 	"github.com/tbrandon/mbserver"
 )

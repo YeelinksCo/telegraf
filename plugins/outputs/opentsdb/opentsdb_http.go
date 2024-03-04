@@ -10,7 +10,7 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"github.com/influxdata/telegraf"
+	"github.com/YeelinksCo/telegraf"
 )
 
 type HTTPMetric struct {

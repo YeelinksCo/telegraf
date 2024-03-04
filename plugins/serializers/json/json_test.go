@@ -13,12 +13,12 @@ import (
 	"github.com/influxdata/toml"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
-	"github.com/influxdata/telegraf/plugins/serializers"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/metric"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/influx"
+	"github.com/YeelinksCo/telegraf/plugins/serializers"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func TestSerializeMetricFloat(t *testing.T) {

@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 type parsePackageMetricTestCase struct {

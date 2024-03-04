@@ -16,14 +16,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/serializers/carbon2"
-	"github.com/influxdata/telegraf/plugins/serializers/graphite"
-	"github.com/influxdata/telegraf/plugins/serializers/prometheus"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/internal"
+	"github.com/YeelinksCo/telegraf/metric"
+	"github.com/YeelinksCo/telegraf/plugins/serializers/carbon2"
+	"github.com/YeelinksCo/telegraf/plugins/serializers/graphite"
+	"github.com/YeelinksCo/telegraf/plugins/serializers/prometheus"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func getMetric() telegraf.Metric {

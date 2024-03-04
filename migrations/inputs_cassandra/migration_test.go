@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/config"
-	_ "github.com/influxdata/telegraf/migrations/inputs_cassandra"   // register migration
-	_ "github.com/influxdata/telegraf/plugins/inputs/jolokia2_agent" // register plugin
+	"github.com/YeelinksCo/telegraf/config"
+	_ "github.com/YeelinksCo/telegraf/migrations/inputs_cassandra"   // register migration
+	_ "github.com/YeelinksCo/telegraf/plugins/inputs/jolokia2_agent" // register plugin
 )
 
 func TestCases(t *testing.T) {

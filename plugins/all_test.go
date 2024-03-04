@@ -17,11 +17,11 @@ import (
 // Most plugins follow the convention of pkg-name to plugin-name.
 // For ex, Pivot processor pkg github.com/influxdata/telegraf/plugins/processors/pivot maps directly to
 // the last element of the pkg i.e "pivot"
-// But in case of "aws_ec2" processor, the pkg is defined as "github.com/influxdata/telegraf/plugins/processors/aws/ec2".
+// But in case of "aws_ec2" processor, the pkg is defined as "github.com/YeelinksCo/telegraf/plugins/processors/aws/ec2".
 // This ensures package names are not tied with plugin names.
 // it should be of the form <pkg-name>: <plugin-name>
 var exceptionMap = map[string]string{
-	"github.com/influxdata/telegraf/plugins/processors/aws/ec2": "aws_ec2",
+	"github.com/YeelinksCo/telegraf/plugins/processors/aws/ec2": "aws_ec2",
 }
 
 func Test_AllPlugins(t *testing.T) {

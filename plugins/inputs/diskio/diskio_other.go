@@ -3,9 +3,9 @@
 package diskio
 
 import (
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/plugins/inputs/system"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/filter"
+	"github.com/YeelinksCo/telegraf/plugins/inputs/system"
 )
 
 type DiskIO struct {

@@ -10,13 +10,13 @@ import (
 	"strings"
 	"time"
 
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/internal"
+	"github.com/YeelinksCo/telegraf/plugins/outputs"
 	"github.com/clarify/clarify-go"
 	"github.com/clarify/clarify-go/fields"
 	"github.com/clarify/clarify-go/views"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/outputs"
 )
 
 type Clarify struct {

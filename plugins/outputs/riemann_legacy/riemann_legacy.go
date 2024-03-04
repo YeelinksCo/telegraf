@@ -10,8 +10,8 @@ import (
 
 	"github.com/amir/raidman"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/plugins/outputs"
 )
 
 //go:embed sample.conf

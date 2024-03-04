@@ -15,12 +15,12 @@ import (
 	"go.starlark.net/starlark"
 	"go.starlark.net/starlarkstruct"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/metric"
-	common "github.com/influxdata/telegraf/plugins/common/starlark"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/metric"
+	common "github.com/YeelinksCo/telegraf/plugins/common/starlark"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/influx"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 // Tests for runtime errors in the processors Init function.

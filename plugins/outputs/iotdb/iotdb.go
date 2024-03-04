@@ -13,10 +13,10 @@ import (
 
 	"github.com/apache/iotdb-client-go/client"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal/choice"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/internal/choice"
+	"github.com/YeelinksCo/telegraf/plugins/outputs"
 )
 
 //go:embed sample.conf

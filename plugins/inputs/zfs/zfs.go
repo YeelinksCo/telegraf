@@ -4,7 +4,7 @@ package zfs
 import (
 	_ "embed"
 
-	"github.com/influxdata/telegraf"
+	"github.com/YeelinksCo/telegraf"
 )
 
 //go:embed sample.conf

@@ -2,4 +2,4 @@
 
 package all
 
-import _ "github.com/influxdata/telegraf/plugins/inputs/knx_listener" // register plugin
+import _ "github.com/YeelinksCo/telegraf/plugins/inputs/knx_listener" // register plugin

@@ -8,8 +8,8 @@ import (
 
 	"github.com/netsampler/goflow2/decoders/netflowlegacy"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/metric"
 )
 
 // Decoder structure

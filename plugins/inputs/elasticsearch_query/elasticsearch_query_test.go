@@ -17,10 +17,10 @@ import (
 	"github.com/testcontainers/testcontainers-go/wait"
 	elastic5 "gopkg.in/olivere/elastic.v5"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	httpconfig "github.com/influxdata/telegraf/plugins/common/http"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	httpconfig "github.com/YeelinksCo/telegraf/plugins/common/http"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 const (

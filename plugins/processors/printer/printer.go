@@ -5,9 +5,9 @@ import (
 	_ "embed"
 	"fmt"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/processors"
-	"github.com/influxdata/telegraf/plugins/serializers/influx"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/plugins/processors"
+	"github.com/YeelinksCo/telegraf/plugins/serializers/influx"
 )
 
 //go:embed sample.conf

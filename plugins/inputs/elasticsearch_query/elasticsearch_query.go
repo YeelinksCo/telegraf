@@ -14,10 +14,10 @@ import (
 
 	elastic5 "gopkg.in/olivere/elastic.v5"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	httpconfig "github.com/influxdata/telegraf/plugins/common/http"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	httpconfig "github.com/YeelinksCo/telegraf/plugins/common/http"
+	"github.com/YeelinksCo/telegraf/plugins/inputs"
 )
 
 //go:embed sample.conf

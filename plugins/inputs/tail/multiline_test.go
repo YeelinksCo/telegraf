@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/config"
+	"github.com/YeelinksCo/telegraf/config"
 )
 
 func TestMultilineConfigOK(t *testing.T) {

@@ -9,12 +9,12 @@ import (
 	"github.com/benbjohnson/clock"
 	"github.com/peterbourgon/unixtransport"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/common/cookie"
-	oauthConfig "github.com/influxdata/telegraf/plugins/common/oauth"
-	"github.com/influxdata/telegraf/plugins/common/proxy"
-	"github.com/influxdata/telegraf/plugins/common/tls"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/plugins/common/cookie"
+	oauthConfig "github.com/YeelinksCo/telegraf/plugins/common/oauth"
+	"github.com/YeelinksCo/telegraf/plugins/common/proxy"
+	"github.com/YeelinksCo/telegraf/plugins/common/tls"
 )
 
 // Common HTTP client struct.

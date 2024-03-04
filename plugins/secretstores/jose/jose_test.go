@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/influxdata/telegraf/config"
+	"github.com/YeelinksCo/telegraf/config"
 	"github.com/stretchr/testify/require"
 )
 

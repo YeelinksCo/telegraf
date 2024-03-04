@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/outputs/health"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/plugins/outputs/health"
+	"github.com/YeelinksCo/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

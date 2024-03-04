@@ -13,9 +13,9 @@ import (
 
 	as "github.com/aerospike/aerospike-client-go/v5"
 
-	"github.com/influxdata/telegraf"
-	tlsint "github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/YeelinksCo/telegraf"
+	tlsint "github.com/YeelinksCo/telegraf/plugins/common/tls"
+	"github.com/YeelinksCo/telegraf/plugins/inputs"
 )
 
 //go:embed sample.conf

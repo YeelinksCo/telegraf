@@ -3,5 +3,5 @@
 package all
 
 import (
-	_ "github.com/influxdata/telegraf/plugins/serializers/splunkmetric" // register plugin
+	_ "github.com/YeelinksCo/telegraf/plugins/serializers/splunkmetric" // register plugin
 )

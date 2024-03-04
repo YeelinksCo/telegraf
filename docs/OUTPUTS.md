@@ -33,8 +33,8 @@ package simpleoutput
 import (
     _ "embed"
 
-    "github.com/influxdata/telegraf"
-    "github.com/influxdata/telegraf/plugins/outputs"
+    "github.com/YeelinksCo/telegraf"
+    "github.com/YeelinksCo/telegraf/plugins/outputs"
 )
 
 //go:embed sample.conf
@@ -87,7 +87,7 @@ Registration of the plugin on `plugins/outputs/all/simpleoutput.go`:
 
 package all
 
-import _ "github.com/influxdata/telegraf/plugins/outputs/simpleoutput" // register plugin
+import _ "github.com/YeelinksCo/telegraf/plugins/outputs/simpleoutput" // register plugin
 
 ```
 

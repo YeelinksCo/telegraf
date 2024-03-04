@@ -11,8 +11,8 @@ import (
 	"github.com/google/gopacket/layers"
 	"github.com/netsampler/goflow2/decoders/sflow"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/metric"
 )
 
 // Decoder structure

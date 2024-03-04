@@ -17,11 +17,11 @@ import (
 	"github.com/influxdata/tail"
 	"github.com/pborman/ansi"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/globpath"
-	"github.com/influxdata/telegraf/plugins/common/encoding"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/parsers"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/internal/globpath"
+	"github.com/YeelinksCo/telegraf/plugins/common/encoding"
+	"github.com/YeelinksCo/telegraf/plugins/inputs"
+	"github.com/YeelinksCo/telegraf/plugins/parsers"
 )
 
 //go:embed sample.conf

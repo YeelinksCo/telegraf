@@ -12,15 +12,15 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/models"
-	_ "github.com/influxdata/telegraf/plugins/aggregators/all"
-	_ "github.com/influxdata/telegraf/plugins/inputs/all"
-	_ "github.com/influxdata/telegraf/plugins/outputs/all"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
-	_ "github.com/influxdata/telegraf/plugins/processors/all"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/models"
+	_ "github.com/YeelinksCo/telegraf/plugins/aggregators/all"
+	_ "github.com/YeelinksCo/telegraf/plugins/inputs/all"
+	_ "github.com/YeelinksCo/telegraf/plugins/outputs/all"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/influx"
+	_ "github.com/YeelinksCo/telegraf/plugins/processors/all"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func TestAgent_OmitHostname(t *testing.T) {

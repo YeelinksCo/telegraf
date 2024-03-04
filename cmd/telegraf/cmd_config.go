@@ -10,10 +10,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/logger"
-	"github.com/influxdata/telegraf/migrations"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/logger"
+	"github.com/YeelinksCo/telegraf/migrations"
 	"github.com/urfave/cli/v2"
 )
 

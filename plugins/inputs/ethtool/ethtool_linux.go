@@ -13,10 +13,10 @@ import (
 
 	"github.com/vishvananda/netns"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/internal/choice"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/filter"
+	"github.com/YeelinksCo/telegraf/internal/choice"
+	"github.com/YeelinksCo/telegraf/plugins/inputs"
 )
 
 const (

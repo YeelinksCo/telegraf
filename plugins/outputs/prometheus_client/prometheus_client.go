@@ -19,14 +19,14 @@ import (
 	"github.com/prometheus/client_golang/prometheus/collectors"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal"
-	tlsint "github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	v1 "github.com/influxdata/telegraf/plugins/outputs/prometheus_client/v1"
-	v2 "github.com/influxdata/telegraf/plugins/outputs/prometheus_client/v2"
-	serializer "github.com/influxdata/telegraf/plugins/serializers/prometheus"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/internal"
+	tlsint "github.com/YeelinksCo/telegraf/plugins/common/tls"
+	"github.com/YeelinksCo/telegraf/plugins/outputs"
+	v1 "github.com/YeelinksCo/telegraf/plugins/outputs/prometheus_client/v1"
+	v2 "github.com/YeelinksCo/telegraf/plugins/outputs/prometheus_client/v2"
+	serializer "github.com/YeelinksCo/telegraf/plugins/serializers/prometheus"
 )
 
 //go:embed sample.conf

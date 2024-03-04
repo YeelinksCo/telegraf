@@ -7,10 +7,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/models"
-	"github.com/influxdata/telegraf/plugins/processors"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/models"
+	"github.com/YeelinksCo/telegraf/plugins/processors"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 // MockProcessor is a Processor with an overridable Apply implementation.

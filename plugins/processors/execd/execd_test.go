@@ -12,15 +12,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/metric"
-	_ "github.com/influxdata/telegraf/plugins/parsers/all"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
-	"github.com/influxdata/telegraf/plugins/processors"
-	_ "github.com/influxdata/telegraf/plugins/serializers/all"
-	influxSerializer "github.com/influxdata/telegraf/plugins/serializers/influx"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/metric"
+	_ "github.com/YeelinksCo/telegraf/plugins/parsers/all"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/influx"
+	"github.com/YeelinksCo/telegraf/plugins/processors"
+	_ "github.com/YeelinksCo/telegraf/plugins/serializers/all"
+	influxSerializer "github.com/YeelinksCo/telegraf/plugins/serializers/influx"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func TestExternalProcessorWorks(t *testing.T) {

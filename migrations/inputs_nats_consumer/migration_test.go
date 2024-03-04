@@ -7,10 +7,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/config"
-	_ "github.com/influxdata/telegraf/migrations/inputs_nats_consumer" // register migration
-	_ "github.com/influxdata/telegraf/plugins/inputs/nats_consumer"    // register plugin
-	_ "github.com/influxdata/telegraf/plugins/parsers/all"             // register parsers
+	"github.com/YeelinksCo/telegraf/config"
+	_ "github.com/YeelinksCo/telegraf/migrations/inputs_nats_consumer" // register migration
+	_ "github.com/YeelinksCo/telegraf/plugins/inputs/nats_consumer"    // register plugin
+	_ "github.com/YeelinksCo/telegraf/plugins/parsers/all"             // register parsers
 )
 
 func TestNoMigration(t *testing.T) {

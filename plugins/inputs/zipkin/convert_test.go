@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/plugins/inputs/zipkin/trace"
+	"github.com/YeelinksCo/telegraf/testutil"
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs/zipkin/trace"
-	"github.com/influxdata/telegraf/testutil"
 )
 
 func TestLineProtocolConverter_Record(t *testing.T) {

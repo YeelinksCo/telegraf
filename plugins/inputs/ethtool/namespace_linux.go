@@ -8,7 +8,7 @@ import (
 	ethtoolLib "github.com/safchain/ethtool"
 	"github.com/vishvananda/netns"
 
-	"github.com/influxdata/telegraf"
+	"github.com/YeelinksCo/telegraf"
 )
 
 type NamespacedAction struct {

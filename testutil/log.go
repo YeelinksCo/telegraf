@@ -3,7 +3,7 @@ package testutil
 import (
 	"log"
 
-	"github.com/influxdata/telegraf"
+	"github.com/YeelinksCo/telegraf"
 )
 
 var _ telegraf.Logger = &Logger{}

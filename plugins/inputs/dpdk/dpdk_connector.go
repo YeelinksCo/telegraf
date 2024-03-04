@@ -9,9 +9,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	jsonparser "github.com/influxdata/telegraf/plugins/parsers/json"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	jsonparser "github.com/YeelinksCo/telegraf/plugins/parsers/json"
 )
 
 const (

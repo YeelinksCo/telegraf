@@ -3,7 +3,7 @@ package inputs_snmp_legacy
 import (
 	"github.com/influxdata/toml/ast"
 
-	"github.com/influxdata/telegraf/migrations"
+	"github.com/YeelinksCo/telegraf/migrations"
 )
 
 const msg = `

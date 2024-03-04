@@ -6,8 +6,8 @@ import (
 	"github.com/influxdata/toml"
 	"github.com/influxdata/toml/ast"
 
-	"github.com/influxdata/telegraf/internal/choice"
-	"github.com/influxdata/telegraf/migrations"
+	"github.com/YeelinksCo/telegraf/internal/choice"
+	"github.com/YeelinksCo/telegraf/migrations"
 )
 
 // Migration function

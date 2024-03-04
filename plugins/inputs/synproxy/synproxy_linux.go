@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/influxdata/telegraf"
+	"github.com/YeelinksCo/telegraf"
 )
 
 func (k *Synproxy) Gather(acc telegraf.Accumulator) error {

@@ -20,22 +20,22 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/models"
-	"github.com/influxdata/telegraf/persister"
-	"github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	_ "github.com/influxdata/telegraf/plugins/parsers/all" // Blank import to have all parsers for testing
-	"github.com/influxdata/telegraf/plugins/parsers/json"
-	"github.com/influxdata/telegraf/plugins/processors"
-	"github.com/influxdata/telegraf/plugins/serializers"
-	_ "github.com/influxdata/telegraf/plugins/serializers/all" // Blank import to have all serializers for testing
-	promserializer "github.com/influxdata/telegraf/plugins/serializers/prometheus"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/metric"
+	"github.com/YeelinksCo/telegraf/models"
+	"github.com/YeelinksCo/telegraf/persister"
+	"github.com/YeelinksCo/telegraf/plugins/common/tls"
+	"github.com/YeelinksCo/telegraf/plugins/inputs"
+	"github.com/YeelinksCo/telegraf/plugins/outputs"
+	"github.com/YeelinksCo/telegraf/plugins/parsers"
+	_ "github.com/YeelinksCo/telegraf/plugins/parsers/all" // Blank import to have all parsers for testing
+	"github.com/YeelinksCo/telegraf/plugins/parsers/json"
+	"github.com/YeelinksCo/telegraf/plugins/processors"
+	"github.com/YeelinksCo/telegraf/plugins/serializers"
+	_ "github.com/YeelinksCo/telegraf/plugins/serializers/all" // Blank import to have all serializers for testing
+	promserializer "github.com/YeelinksCo/telegraf/plugins/serializers/prometheus"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func TestReadBinaryFile(t *testing.T) {

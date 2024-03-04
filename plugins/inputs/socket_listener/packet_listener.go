@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/internal"
 )
 
 type packetListener struct {

@@ -7,8 +7,8 @@ import (
 	"github.com/amir/raidman"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf/metric"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func TestAttributes(t *testing.T) {

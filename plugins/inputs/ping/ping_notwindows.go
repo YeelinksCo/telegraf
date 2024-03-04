@@ -12,7 +12,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/influxdata/telegraf"
+	"github.com/YeelinksCo/telegraf"
 )
 
 type roundTripTimeStats struct {

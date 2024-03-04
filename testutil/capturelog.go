@@ -5,7 +5,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/influxdata/telegraf"
+	"github.com/YeelinksCo/telegraf"
 )
 
 var _ telegraf.Logger = &CaptureLogger{}

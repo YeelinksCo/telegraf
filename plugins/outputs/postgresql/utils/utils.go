@@ -9,7 +9,7 @@ import (
 
 	"github.com/jackc/pgx/v4"
 
-	"github.com/influxdata/telegraf"
+	"github.com/YeelinksCo/telegraf"
 )
 
 func TagListToJSON(tagList []*telegraf.Tag) []byte {

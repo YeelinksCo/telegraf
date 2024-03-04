@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/metric"
+	"github.com/YeelinksCo/telegraf/testutil"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

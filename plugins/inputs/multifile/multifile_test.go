@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func TestFileTypes(t *testing.T) {

@@ -11,9 +11,9 @@ import (
 	ws "github.com/gorilla/websocket"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 // testSerializer serializes to a number of metrics to simplify tests here.

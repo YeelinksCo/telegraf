@@ -13,9 +13,9 @@ import (
 	"github.com/gopcua/opcua/debug"
 	"github.com/gopcua/opcua/ua"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal/choice"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/internal/choice"
 )
 
 type OpcUAWorkarounds struct {

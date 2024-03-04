@@ -8,10 +8,10 @@ import (
 	"runtime/metrics"
 	"strings"
 
-	"github.com/influxdata/telegraf"
-	inter "github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/selfstat"
+	"github.com/YeelinksCo/telegraf"
+	inter "github.com/YeelinksCo/telegraf/internal"
+	"github.com/YeelinksCo/telegraf/plugins/inputs"
+	"github.com/YeelinksCo/telegraf/selfstat"
 )
 
 //go:embed sample.conf

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf/plugins/common/tls"
+	"github.com/YeelinksCo/telegraf/plugins/common/tls"
 	"github.com/stretchr/testify/require"
 )
 

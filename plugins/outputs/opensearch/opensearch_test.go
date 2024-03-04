@@ -7,9 +7,9 @@ import (
 	"text/template"
 	"time"
 
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/testutil"
 	"github.com/docker/go-connections/nat"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 	"github.com/testcontainers/testcontainers-go/wait"
 )

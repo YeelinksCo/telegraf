@@ -3,5 +3,5 @@
 package all
 
 import (
-	_ "github.com/influxdata/telegraf/plugins/serializers/wavefront" // register plugin
+	_ "github.com/YeelinksCo/telegraf/plugins/serializers/wavefront" // register plugin
 )

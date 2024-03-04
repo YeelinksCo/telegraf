@@ -8,8 +8,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/secretstores"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/plugins/secretstores"
 )
 
 //go:embed sample.conf

@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/models"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/models"
 )
 
 func TestAddFields(t *testing.T) {

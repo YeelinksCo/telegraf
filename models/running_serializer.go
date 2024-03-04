@@ -3,9 +3,9 @@ package models
 import (
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/serializers"
-	"github.com/influxdata/telegraf/selfstat"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/plugins/serializers"
+	"github.com/YeelinksCo/telegraf/selfstat"
 )
 
 // SerializerConfig is the common config for all serializers.

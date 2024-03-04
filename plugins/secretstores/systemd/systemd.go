@@ -13,9 +13,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/plugins/secretstores"
 	"github.com/coreos/go-systemd/v22/dbus"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/secretstores"
 )
 
 const systemdMinimumVersion = 250

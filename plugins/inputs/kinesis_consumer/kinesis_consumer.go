@@ -20,9 +20,9 @@ import (
 	consumer "github.com/harlow/kinesis-consumer"
 	"github.com/harlow/kinesis-consumer/store/ddb"
 
-	"github.com/influxdata/telegraf"
-	internalaws "github.com/influxdata/telegraf/plugins/common/aws"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/YeelinksCo/telegraf"
+	internalaws "github.com/YeelinksCo/telegraf/plugins/common/aws"
+	"github.com/YeelinksCo/telegraf/plugins/inputs"
 )
 
 //go:embed sample.conf

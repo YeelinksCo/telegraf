@@ -12,9 +12,9 @@ import (
 	"github.com/prometheus/prometheus/prompb"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/serializers"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/plugins/serializers"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func BenchmarkRemoteWrite(b *testing.B) {

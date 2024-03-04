@@ -8,7 +8,7 @@ import (
 
 	"github.com/Mellanox/rdmamap"
 
-	"github.com/influxdata/telegraf"
+	"github.com/YeelinksCo/telegraf"
 )
 
 // Gather statistics from our infiniband cards

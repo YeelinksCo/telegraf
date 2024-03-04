@@ -10,11 +10,11 @@ import (
 
 	"github.com/go-stomp/stomp"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	commontls "github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	commontls "github.com/YeelinksCo/telegraf/plugins/common/tls"
+	"github.com/YeelinksCo/telegraf/plugins/outputs"
+	"github.com/YeelinksCo/telegraf/plugins/serializers"
 )
 
 //go:embed sample.conf

@@ -5,9 +5,9 @@ import (
 	_ "embed"
 	"net"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	gohddtemp "github.com/influxdata/telegraf/plugins/inputs/hddtemp/go-hddtemp"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/plugins/inputs"
+	gohddtemp "github.com/YeelinksCo/telegraf/plugins/inputs/hddtemp/go-hddtemp"
 )
 
 //go:embed sample.conf

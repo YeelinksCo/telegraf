@@ -3,8 +3,8 @@ package consul
 import (
 	"testing"
 
+	"github.com/YeelinksCo/telegraf/testutil"
 	"github.com/hashicorp/consul/api"
-	"github.com/influxdata/telegraf/testutil"
 )
 
 var sampleChecks = []*api.HealthCheck{

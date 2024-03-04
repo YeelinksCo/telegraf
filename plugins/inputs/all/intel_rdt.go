@@ -2,4 +2,4 @@
 
 package all
 
-import _ "github.com/influxdata/telegraf/plugins/inputs/intel_rdt" // register plugin
+import _ "github.com/YeelinksCo/telegraf/plugins/inputs/intel_rdt" // register plugin

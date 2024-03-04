@@ -13,8 +13,8 @@ import (
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/stdlib"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
 )
 
 // pulled from lib/pq

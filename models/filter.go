@@ -11,8 +11,8 @@ import (
 	"github.com/google/cel-go/common/types/ref"
 	"github.com/google/cel-go/ext"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/filter"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/filter"
 )
 
 // TagFilter is the name of a tag, and the values on which to filter

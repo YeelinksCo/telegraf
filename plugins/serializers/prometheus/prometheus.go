@@ -7,9 +7,9 @@ import (
 
 	"github.com/prometheus/common/expfmt"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/filter"
+	"github.com/YeelinksCo/telegraf/plugins/serializers"
 )
 
 type MetricTypes struct {

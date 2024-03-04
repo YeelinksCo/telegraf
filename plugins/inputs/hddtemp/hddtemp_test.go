@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/plugins/inputs/hddtemp/go-hddtemp"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf/plugins/inputs/hddtemp/go-hddtemp"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 type mockFetcher struct {

@@ -1,8 +1,8 @@
 package snmp_trap
 
 import (
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/snmp"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/internal/snmp"
 )
 
 type gosmiTranslator struct {

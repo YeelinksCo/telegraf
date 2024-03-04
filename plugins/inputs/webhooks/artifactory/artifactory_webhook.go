@@ -9,8 +9,8 @@ import (
 	"io"
 	"net/http"
 
+	"github.com/YeelinksCo/telegraf"
 	"github.com/gorilla/mux"
-	"github.com/influxdata/telegraf"
 )
 
 type ArtifactoryWebhook struct {

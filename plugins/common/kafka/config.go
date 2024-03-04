@@ -8,9 +8,9 @@ import (
 
 	"github.com/IBM/sarama"
 
-	"github.com/influxdata/telegraf"
-	tgConf "github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/common/tls"
+	"github.com/YeelinksCo/telegraf"
+	tgConf "github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/plugins/common/tls"
 )
 
 // ReadConfig for kafka clients meaning to read from Kafka.

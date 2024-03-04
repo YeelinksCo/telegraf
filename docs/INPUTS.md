@@ -38,8 +38,8 @@ package simple
 import (
     _ "embed"
 
-    "github.com/influxdata/telegraf"
-    "github.com/influxdata/telegraf/plugins/inputs"
+    "github.com/YeelinksCo/telegraf"
+    "github.com/YeelinksCo/telegraf/plugins/inputs"
 )
 
 //go:embed sample.conf
@@ -81,7 +81,7 @@ Registration of the plugin on `plugins/inputs/all/simple.go`:
 
 package all
 
-import _ "github.com/influxdata/telegraf/plugins/inputs/simple" // register plugin
+import _ "github.com/YeelinksCo/telegraf/plugins/inputs/simple" // register plugin
 
 ```
 

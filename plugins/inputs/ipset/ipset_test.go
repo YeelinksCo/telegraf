@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func TestIpset(t *testing.T) {

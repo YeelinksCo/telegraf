@@ -1,7 +1,7 @@
 package snmp
 
 import (
-	"github.com/influxdata/telegraf/config"
+	"github.com/YeelinksCo/telegraf/config"
 )
 
 type ClientConfig struct {

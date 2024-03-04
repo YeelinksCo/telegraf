@@ -2,4 +2,4 @@
 
 package all
 
-import _ "github.com/influxdata/telegraf/plugins/inputs/snmp_trap" // register plugin
+import _ "github.com/YeelinksCo/telegraf/plugins/inputs/snmp_trap" // register plugin

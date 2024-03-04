@@ -18,13 +18,13 @@ import (
 	"github.com/boschrexroth/ctrlx-datalayer-golang/pkg/token"
 	"github.com/google/uuid"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal/choice"
-	"github.com/influxdata/telegraf/metric"
-	httpconfig "github.com/influxdata/telegraf/plugins/common/http"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	jsonParser "github.com/influxdata/telegraf/plugins/parsers/json"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/internal/choice"
+	"github.com/YeelinksCo/telegraf/metric"
+	httpconfig "github.com/YeelinksCo/telegraf/plugins/common/http"
+	"github.com/YeelinksCo/telegraf/plugins/inputs"
+	jsonParser "github.com/YeelinksCo/telegraf/plugins/parsers/json"
 )
 
 // This plugin is based on the official ctrlX CORE API. Documentation can be found in OpenAPI format at:

@@ -11,10 +11,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	inputs "github.com/influxdata/telegraf/plugins/inputs/prometheus"
-	"github.com/influxdata/telegraf/plugins/serializers/prometheus"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf"
+	inputs "github.com/YeelinksCo/telegraf/plugins/inputs/prometheus"
+	"github.com/YeelinksCo/telegraf/plugins/serializers/prometheus"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func TestMetricVersion2(t *testing.T) {

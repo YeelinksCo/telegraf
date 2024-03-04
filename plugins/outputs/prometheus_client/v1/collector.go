@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	serializer "github.com/influxdata/telegraf/plugins/serializers/prometheus"
+	"github.com/YeelinksCo/telegraf"
+	serializer "github.com/YeelinksCo/telegraf/plugins/serializers/prometheus"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

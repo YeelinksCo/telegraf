@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/metric"
 	"github.com/go-ldap/ldap/v3"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
 )
 
 var attrMapOpenLDAP = map[string]string{

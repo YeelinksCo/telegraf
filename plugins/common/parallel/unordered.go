@@ -3,7 +3,7 @@ package parallel
 import (
 	"sync"
 
-	"github.com/influxdata/telegraf"
+	"github.com/YeelinksCo/telegraf"
 )
 
 type Unordered struct {

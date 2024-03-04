@@ -13,9 +13,9 @@ import (
 	"github.com/gosnmp/gosnmp"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal/snmp"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/internal/snmp"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 type testSNMPConnection struct {

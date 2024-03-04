@@ -5,10 +5,10 @@ import (
 	_ "embed"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/common/parallel"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/plugins/common/parallel"
+	"github.com/YeelinksCo/telegraf/plugins/processors"
 )
 
 //go:embed sample.conf

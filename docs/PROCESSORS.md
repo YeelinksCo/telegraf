@@ -32,8 +32,8 @@ import (
     _ "embed"
     "fmt"
 
-    "github.com/influxdata/telegraf"
-    "github.com/influxdata/telegraf/plugins/processors"
+    "github.com/YeelinksCo/telegraf"
+    "github.com/YeelinksCo/telegraf/plugins/processors"
 )
 
 //go:embed sample.conf
@@ -73,7 +73,7 @@ Registration of the plugin on `plugins/processors/all/printer.go`:
 
 package all
 
-import _ "github.com/influxdata/telegraf/plugins/processors/printer" // register plugin
+import _ "github.com/YeelinksCo/telegraf/plugins/processors/printer" // register plugin
 ```
 
 The _build-tags_ in the first line allow to selectively include/exclude your
@@ -109,8 +109,8 @@ import (
     _ "embed"
     "fmt"
 
-    "github.com/influxdata/telegraf"
-    "github.com/influxdata/telegraf/plugins/processors"
+    "github.com/YeelinksCo/telegraf"
+    "github.com/YeelinksCo/telegraf/plugins/processors"
 )
 
 //go:embed sample.conf

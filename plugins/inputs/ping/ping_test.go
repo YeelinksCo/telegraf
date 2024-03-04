@@ -11,8 +11,8 @@ import (
 	ping "github.com/prometheus-community/pro-bing"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf/plugins/inputs"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 // BSD/Darwin ping output

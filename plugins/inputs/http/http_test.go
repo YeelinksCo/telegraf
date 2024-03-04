@@ -17,15 +17,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	httpconfig "github.com/influxdata/telegraf/plugins/common/http"
-	"github.com/influxdata/telegraf/plugins/common/oauth"
-	httpplugin "github.com/influxdata/telegraf/plugins/inputs/http"
-	"github.com/influxdata/telegraf/plugins/parsers/csv"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
-	"github.com/influxdata/telegraf/plugins/parsers/json"
-	"github.com/influxdata/telegraf/plugins/parsers/value"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf"
+	httpconfig "github.com/YeelinksCo/telegraf/plugins/common/http"
+	"github.com/YeelinksCo/telegraf/plugins/common/oauth"
+	httpplugin "github.com/YeelinksCo/telegraf/plugins/inputs/http"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/csv"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/influx"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/json"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/value"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func TestHTTPWithJSONFormat(t *testing.T) {

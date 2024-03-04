@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/plugins/serializers"
 )
 
 type Serializer struct {

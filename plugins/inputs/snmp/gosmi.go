@@ -7,8 +7,8 @@ import (
 	"github.com/sleepinggenius2/gosmi"
 	"github.com/sleepinggenius2/gosmi/models"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/snmp"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/internal/snmp"
 )
 
 type gosmiTranslator struct {

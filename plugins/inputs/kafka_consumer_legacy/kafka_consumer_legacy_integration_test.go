@@ -8,8 +8,8 @@ import (
 	"github.com/IBM/sarama"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/influx"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func TestReadsMetricsFromKafkaIntegration(t *testing.T) {

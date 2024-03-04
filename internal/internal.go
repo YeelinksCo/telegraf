@@ -20,7 +20,7 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/influxdata/telegraf/internal/choice"
+	"github.com/YeelinksCo/telegraf/internal/choice"
 )
 
 const alphanum string = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"

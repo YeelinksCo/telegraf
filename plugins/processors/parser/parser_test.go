@@ -7,16 +7,16 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/plugins/parsers/binary"
-	"github.com/influxdata/telegraf/plugins/parsers/grok"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
-	"github.com/influxdata/telegraf/plugins/parsers/json"
-	"github.com/influxdata/telegraf/plugins/parsers/logfmt"
-	"github.com/influxdata/telegraf/plugins/parsers/value"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/metric"
+	"github.com/YeelinksCo/telegraf/plugins/parsers"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/binary"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/grok"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/influx"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/json"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/logfmt"
+	"github.com/YeelinksCo/telegraf/plugins/parsers/value"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func TestApply(t *testing.T) {

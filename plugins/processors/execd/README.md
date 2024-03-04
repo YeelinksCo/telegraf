@@ -68,9 +68,9 @@ import (
     "fmt"
     "os"
 
-    "github.com/influxdata/telegraf/metric"
-    "github.com/influxdata/telegraf/plugins/parsers/influx"
-    influxSerializer "github.com/influxdata/telegraf/plugins/serializers/influx"
+    "github.com/YeelinksCo/telegraf/metric"
+    "github.com/YeelinksCo/telegraf/plugins/parsers/influx"
+    influxSerializer "github.com/YeelinksCo/telegraf/plugins/serializers/influx"
 )
 
 func main() {

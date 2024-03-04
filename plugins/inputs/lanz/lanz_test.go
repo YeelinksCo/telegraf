@@ -8,7 +8,7 @@ import (
 	pb "github.com/aristanetworks/goarista/lanz/proto"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 var testProtoBufCongestionRecord1 = &pb.LanzRecord{

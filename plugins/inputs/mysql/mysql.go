@@ -14,12 +14,12 @@ import (
 	"github.com/go-sql-driver/mysql"
 	"github.com/gofrs/uuid/v5"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	v1 "github.com/influxdata/telegraf/plugins/inputs/mysql/v1"
-	v2 "github.com/influxdata/telegraf/plugins/inputs/mysql/v2"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/plugins/common/tls"
+	"github.com/YeelinksCo/telegraf/plugins/inputs"
+	v1 "github.com/YeelinksCo/telegraf/plugins/inputs/mysql/v1"
+	v2 "github.com/YeelinksCo/telegraf/plugins/inputs/mysql/v2"
 )
 
 //go:embed sample.conf

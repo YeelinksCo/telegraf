@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/selfstat"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/selfstat"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 // newListener is the minimal InfluxDBV2Listener construction to serve writes.

@@ -10,10 +10,10 @@ import (
 	// Required for SQL framework driver
 	_ "github.com/jackc/pgx/v4/stdlib"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/inputs/postgresql"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/config"
+	"github.com/YeelinksCo/telegraf/plugins/inputs"
+	"github.com/YeelinksCo/telegraf/plugins/inputs/postgresql"
 )
 
 //go:embed sample.conf

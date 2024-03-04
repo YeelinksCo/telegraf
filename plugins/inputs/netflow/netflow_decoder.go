@@ -11,8 +11,8 @@ import (
 
 	"github.com/netsampler/goflow2/decoders/netflow"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/YeelinksCo/telegraf"
+	"github.com/YeelinksCo/telegraf/metric"
 )
 
 var regexpIPFIXPENMapping = regexp.MustCompile(`\d+\.\d+`)

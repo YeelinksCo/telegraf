@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	"github.com/influxdata/telegraf/plugins/serializers/influx"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/YeelinksCo/telegraf/plugins/serializers/influx"
+	"github.com/YeelinksCo/telegraf/testutil"
 )
 
 func TestConnectAndWriteIntegration(t *testing.T) {

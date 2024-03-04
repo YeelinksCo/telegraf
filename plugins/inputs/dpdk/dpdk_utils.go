@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/influxdata/telegraf/filter"
+	"github.com/YeelinksCo/telegraf/filter"
 )
 
 func commandWithParams(command string, params string) string {

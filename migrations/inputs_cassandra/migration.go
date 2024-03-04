@@ -9,8 +9,8 @@ import (
 	"github.com/influxdata/toml"
 	"github.com/influxdata/toml/ast"
 
-	"github.com/influxdata/telegraf/migrations"
-	"github.com/influxdata/telegraf/migrations/common"
+	"github.com/YeelinksCo/telegraf/migrations"
+	"github.com/YeelinksCo/telegraf/migrations/common"
 )
 
 // Define "old" data structure

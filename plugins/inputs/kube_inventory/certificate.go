@@ -9,7 +9,7 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/influxdata/telegraf"
+	"github.com/YeelinksCo/telegraf"
 )
 
 func collectSecrets(ctx context.Context, acc telegraf.Accumulator, ki *KubernetesInventory) {
